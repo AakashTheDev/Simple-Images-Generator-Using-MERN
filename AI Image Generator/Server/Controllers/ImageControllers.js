@@ -3,7 +3,7 @@ const Image = require('../Models/Image');
 const config = require('../Config');
 
 const openai = new OpenAI({
-  apiKey: "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"
+  apiKey: ""
 });
 
 exports.generateImage = async (req, res) => {
